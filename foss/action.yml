@@ -1,0 +1,8 @@
+name: "Foss Scanner"
+description: "Check your application for foss vulnerabilties"
+branding:
+  icon: "cloud-snow"
+  color: "blue"
+runs:
+  using: "docker"
+  image: "docker://saurabhthatte/foss-cli:v2"
