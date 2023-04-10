@@ -8,6 +8,6 @@ inputs:
     description: "Threshold values for each severity. Ex. critical=1 high=10"
 runs:
   using: "docker"
-  image: "docker://saurabhthatte/foss-scan:v2"
+  image: "docker://saurabhthatte/foss-scan:v1"
   args:
   - ${{ inputs.threshold }} 
