@@ -5,4 +5,4 @@ branding:
   color: "blue"
 runs:
   using: "docker"
-  image: "docker://saurabhthatte/foss-cli:v2"
+  image: "docker://saurabhthatte/foss-scan:v2"
