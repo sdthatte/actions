@@ -3,6 +3,11 @@ description: "Check your application for foss vulnerabilties"
 branding:
   icon: "cloud-snow"
   color: "blue"
+inputs:
+  threshold: 
+    description: "Threshold values for each severity. Ex. critical=1 high=10"
 runs:
   using: "docker"
   image: "docker://saurabhthatte/foss-scan:v2"
+  args:
+  - ${{ inputs.threshold }} 
